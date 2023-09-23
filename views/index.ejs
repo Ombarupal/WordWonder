@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet' />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <title>Text to Speech</title>
+    <link rel="icon" type="image/png" href="../logo.png">
+</head>
+
+<body background="#ffffff">
+    <div class="row1">
+        <h1 id="heading" style="font-family: 'Acme'; font-size: 60px; color:#1DA1F2; text-align: center;">
+            WordWonders!
+        </h1>
+    </div>
+
+    <div class="main-container">
+        <div class="column1">
+            <img src="/indexImage.jpg" alt="kids and Teacher"></img>
+        </div>
+
+
+
+        <div class="container">
+
+            <div class="inputs">
+                <button id="start">Listen word!</button>
+                <label>Enter the spelling of word: </label>
+                <input type="text" id="answerText" placeholder="enter spelling..." />
+
+                <button id="submit">Submit</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="GameOver">
+        <div class="formPopup" id="popupForm">
+            <form action="/" class="formContainer">
+                <h2>GAME OVER!</h2>
+                <button type="submit" class="btn">Retry</button>
+                
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 20px;">Let's
+            learn together!
+        </p>
+    </div>
+</body>
+
+<script src="./app.js"></script>
+
+</html>
